@@ -6,7 +6,173 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
 <link href="bundle.css" rel="stylesheet"></head>
-<body>
-    <h1>tedst</h1>
+<body >
+<div id="app">
+    
+<!-- UI MENU start  -->
+<header  >
+        <div class="sidenav-overlay d-md-none overClosed"></div>
+    
+        <div class="sidenav  shadow d-md-none">
+          <div class="arrow-side">
+              <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path  d="M11 21.883l-6.235-7.527-.765.644 7.521 9 7.479-9-.764-.645-6.236 7.529v-21.884h-1v21.883z"/></svg>
+         
+          </div>
+            <ul class="d-flex flex-column">
+                <li class="link shadow mb-1" value="about" >About</li>
+                <li class="link shadow mb-1" value="services" >info</li>
+                <li class="link shadow mb-1" value="gallery" >gallery</li>
+                <li class="link shadow mb-1" value="contact" >Contact</li>
+              </ul>
+        </div>
+        <nav class="container">
+          <div class="link brand " value='hero'>
+                <svg xmlns="http://www.w3.org/2000/svg" width="54" height="54" viewBox="0 0 24  24"><path d="M9 3L7.17 5H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2h-3.17L15 3H9zm3 15c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5z"/><path fill="none" d="M0 0h24v24H0V0z"/><path d="M12 17l1.25-2.75L16 13l-2.75-1.25L12 9l-1.25 2.75L8 13l2.75 1.25z"/>
+                </svg>
+                <h6 class="logo">Logo</h6>
+          </div>
+         
+          <ul id="nav" class="d-none d-md-flex">
+            <li class="link " value='about'>O mnie</li>
+            <li class="link" value='services' >Usługi</li>
+            <li class="link" value="gallery" >Galeria</li>
+            <li class="link" value='contact' >Kontakt</li>
+          </ul>
+          <div class="d-flex d-md-none menu-btn mr-1">
+              <svg width="24" height="24" viewBox="0 0 24 24"><path  d="M0 0h24v24H0z" fill="none"/><path fill='black' d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/></svg>
+          </div>
+        </nav>
+    </header>
+    <section  id="hero" class="c target-hero" >
+        <div   class=" container">
+            <div class="row"  >
+                <div class="col-12 c text-center d-flex flex-column">
+                    <h2>Hero</h2>
+                    <p class="description">
+                        Lorem, ipsum dolor.
+                    </p>
+                    <div class="btn">Buttonn</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section  class="c">
+        <div class="container">
+            <div class="row target-about" data-scroll='about'>
+                <div class="col-12 col-md-6 c flex-column py-3">
+                    <h1>O mnie</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas doloribus blanditiis illum, quos veritatis repudiandae!</p>
+                    <div class="btn">Więcej</div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <img class="img"  data-lazy="https://images.pexels.com/photos/1081685/pexels-photo-1081685.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" src="https://images.pexels.com/photos/1081685/pexels-photo-1081685.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="my image">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section  class="c ">
+        <div class="container">
+            <div class="row target-services">
+                <div class="col-12 text-center">
+                  <h2>Lorem, ipsum.</h2>
+                  <br>
+                </div>
+                <div class="col-3 text-center">
+                <svg xmlns="http://www.w3.org/2000/svg" width="54" height="54" viewBox="0 0 24  24"><path d="M9 3L7.17 5H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2h-3.17L15 3H9zm3 15c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5z"/><path fill="none" d="M0 0h24v24H0V0z"/><path d="M12 17l1.25-2.75L16 13l-2.75-1.25L12 9l-1.25 2.75L8 13l2.75 1.25z"/>
+                </svg>
+                    <h3>Lorem, ipsum.</h3>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+                <div class="col-3 text-center">
+                <svg xmlns="http://www.w3.org/2000/svg" width="54" height="54" viewBox="0 0 24  24"><path d="M9 3L7.17 5H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2h-3.17L15 3H9zm3 15c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5z"/><path fill="none" d="M0 0h24v24H0V0z"/><path d="M12 17l1.25-2.75L16 13l-2.75-1.25L12 9l-1.25 2.75L8 13l2.75 1.25z"/>
+                </svg>
+                    <h3>Lorem, ipsum.</h3>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+                <div class="col-3 text-center">
+                <svg xmlns="http://www.w3.org/2000/svg" width="54" height="54" viewBox="0 0 24  24"><path d="M9 3L7.17 5H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2h-3.17L15 3H9zm3 15c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5z"/><path fill="none" d="M0 0h24v24H0V0z"/><path d="M12 17l1.25-2.75L16 13l-2.75-1.25L12 9l-1.25 2.75L8 13l2.75 1.25z"/>
+                </svg>
+                    <h3>Lorem, ipsum.</h3>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+                <div class="col-3 text-center">
+                <svg xmlns="http://www.w3.org/2000/svg" width="54" height="54" viewBox="0 0 24  24"><path d="M9 3L7.17 5H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2h-3.17L15 3H9zm3 15c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5z"/><path fill="none" d="M0 0h24v24H0V0z"/><path d="M12 17l1.25-2.75L16 13l-2.75-1.25L12 9l-1.25 2.75L8 13l2.75 1.25z"/>
+                </svg>
+                    <h3>Lorem, ipsum.</h3>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+                <div class="col-3 text-center">
+                <svg xmlns="http://www.w3.org/2000/svg" width="54" height="54" viewBox="0 0 24  24"><path d="M9 3L7.17 5H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2h-3.17L15 3H9zm3 15c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5z"/><path fill="none" d="M0 0h24v24H0V0z"/><path d="M12 17l1.25-2.75L16 13l-2.75-1.25L12 9l-1.25 2.75L8 13l2.75 1.25z"/>
+                </svg>
+                    <h3>Lorem, ipsum.</h3>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+                <div class="col-3 text-center">
+                <svg xmlns="http://www.w3.org/2000/svg" width="54" height="54" viewBox="0 0 24  24"><path d="M9 3L7.17 5H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2h-3.17L15 3H9zm3 15c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5z"/><path fill="none" d="M0 0h24v24H0V0z"/><path d="M12 17l1.25-2.75L16 13l-2.75-1.25L12 9l-1.25 2.75L8 13l2.75 1.25z"/>
+                </svg>
+                    <h3>Lorem, ipsum.</h3>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+                <div class="col-3 text-center">
+                <svg xmlns="http://www.w3.org/2000/svg" width="54" height="54" viewBox="0 0 24  24"><path d="M9 3L7.17 5H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2h-3.17L15 3H9zm3 15c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5z"/><path fill="none" d="M0 0h24v24H0V0z"/><path d="M12 17l1.25-2.75L16 13l-2.75-1.25L12 9l-1.25 2.75L8 13l2.75 1.25z"/>
+                </svg>
+                    <h3>Lorem, ipsum.</h3>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+                <div class="col-3 text-center">
+                <svg xmlns="http://www.w3.org/2000/svg" width="54" height="54" viewBox="0 0 24  24"><path d="M9 3L7.17 5H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2h-3.17L15 3H9zm3 15c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5z"/><path fill="none" d="M0 0h24v24H0V0z"/><path d="M12 17l1.25-2.75L16 13l-2.75-1.25L12 9l-1.25 2.75L8 13l2.75 1.25z"/>
+                </svg>
+                    <h3>Lorem, ipsum.</h3>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+                <div class="col-3 text-center">
+                </div>
+                <div class="col-3 text-center">
+                </div>
+                <div class="col-3 text-center">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section  class="c">
+        <div class="container">
+            <div class="row target-gallery">
+                    <div class="col-12 col-sm-6 col-md-4">
+                            <img 
+                            data-lazy="https://images.pexels.com/photos/1081685/pexels-photo-1081685.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"                
+                            src="https://images.pexels.com/photos/1081685/pexels-photo-1081685.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="">
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4">
+                            <img 
+                            data-lazy="https://images.pexels.com/photos/1081685/pexels-photo-1081685.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"                
+                            src="https://images.pexels.com/photos/1081685/pexels-photo-1081685.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="">
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4">
+                            <img 
+                            data-lazy="https://images.pexels.com/photos/1081685/pexels-photo-1081685.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"                
+                            src="https://images.pexels.com/photos/1081685/pexels-photo-1081685.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="">
+                    </div>
+            </div>
+        </div>
+    </section>
+    <section  class="c">
+        <div class="container">
+            <div class="row target-contact">
+                <div class="col-12 col-sm-6 ">
+                    <form>
+                        <input type="text" name="" id="">
+                        <input type="email" name="" id="">
+                        <textarea name="" id="" cols="30" rows="10"></textarea>
+                        <input type="submit" value="Send">
+                    </form>
+                </div>
+                <div class="col-12 col-sm-6 ">
+                    <div class="mapouter c"><div class="gmap_canvas"><iframe  height="500" style="width: 500px; max-width: 100%;" src="https://maps.google.com/maps?q=university%20of%20san%20francisco&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.embedgooglemap.net/blog/nordvpn-coupon-code/"></a></div></div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
 <script type="text/javascript" src="main.js"></script></body>
 </html>
+<!-- UI MENU end -->

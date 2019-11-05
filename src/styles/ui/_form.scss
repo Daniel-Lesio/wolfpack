@@ -1,0 +1,27 @@
+form{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 100px;
+    border-radius: 5px;
+    
+    input{
+        font-size: 24px;
+        padding-left:10px;
+        background: white;
+        line-height: 40px;
+        border-radius: 4px;
+        margin-top: 20px;
+    }
+    textarea{
+        padding: 10px;
+        font-size: 20x;
+        margin-top: 20px;
+        border-radius: 4px;
+    }
+    .submit{
+    
+    }
+}
+.gmap_canvas{
+    padding-top: 20px;
+}

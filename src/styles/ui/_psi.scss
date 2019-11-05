@@ -1,0 +1,21 @@
+.psi{
+    position: fixed;
+    top: 0px;
+    left: 0;
+    height: 4px;
+    width: 100vw;
+    background: #f7f7f7;
+    z-index: 99;
+    overflow: hidden;
+    .progress-bar{
+        border-radius: 50px;
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 0%;
+        background: $accent;  /* fallback for old browsers */
+        background: linear-gradient(to right, $accent,$metal); 
+    }
+}
+
